@@ -27,6 +27,19 @@ height: auto;
     margin-left: auto;
     margin-right: auto;
 }
+.primaryBtn {
+    font-family: 'Rubik','Arial', sans-serif;
+    text-decoration: none;
+    margin-left: 25px;
+    background-color:#7296ec;
+    line-height: 19px;
+    border-radius:10px;
+    padding:13px 20px;
+    color: #fff;
+}
+.primaryBtn:active{
+    opacity: 0.6;
+}
 .main {
 flex-grow: 1;
 }
@@ -35,15 +48,11 @@ footer{
     background-color:aqua;
 }
 /*MAIN SECTION*/
-
-
-.site-header {
-
-}
 .site-header-top {
     padding-top:30px;
     padding-bottom: 30px;
     background-color: #f6f6f6;
+    margin-bottom: 10px;
 }
 
 .site-header__container {
@@ -59,6 +68,9 @@ footer{
     border-radius: 7px;
     margin-right: 35px;
     background-color: #f6f6f6;
+}
+.site-header-logo:active{
+    opacity:0.6;
 }
 .site-header-logo__img {
     width: 264px;
@@ -76,44 +88,74 @@ footer{
 .dite__header-form {
     font-size: 14px;
     color:#8d8d8d;
-    padding:15px 0 13px 41px;
+    padding:15px 15px 13px 41px;
     border:none;
     border-radius:60px;
     outline: none;
-}
-.dite__header-form::after{
-    position:absolute;
-    height: 10px;
-    width: 10px;
-    content:' ';
-asdsd:;
-    top:0;
-    left:10px;
-    
+    width: 275px;
+    background-image: url('../images/search.svg');
+    background-repeat: no-repeat;
+    background-position: 15px 16px;
+    background-size: 20px;
+
 }
 .language-toggler {
+    background-color: #dce6ff;
+    border-radius: 39px;
+    padding:3px;
 }
 .language-toggler-item {
-    
-}
-.language-toggler-active {
-}
-.site-headerBTN {
-}
-.primaryBtn {
-    font-family: 'Rubik','Arial', sans-serif;
+    width: 30px;
+    height:30px;
+    color: #a6a6a6;
+    border-radius: 50%;
     text-decoration: none;
-    margin-left: 25px;
-    background-color:#7296ec;
-    border-radius:10px;
-    padding:13px 20px;
-    color: #fff;
+    display: inline-block;
+    text-align:center;
+    line-height: -11px;
+}
+.language-toggler-active{
+    background-color: #fff;
+    color:#000;
 }
 
 
+/*NAVIGATION STYLE SECTION*/
 
-
-loremipsd
+.site-header-nav {
+border-bottom:2px solid #d1d1d1;
+padding-bottom:15px;
+padding-top: 15px;
+}
+.site-header__nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    list-style: none;
+}
+.site-header_nav-list-item{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.site-header_nav-list-item:not(:last-child){
+margin-right: 34.44px;
+}
+.site-header-nav-list-item__link {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 21.33px;
+    color:#7f7f7f;
+}
+.site-header-nav-list-item__link:active{
+    opacity: 0.6;
+}
+.site-header-nav-list-item__link:hover{
+    color:#2959ce;
+}
+/* /// NAVIGATION STYLE SECTION*/
 
 
 
