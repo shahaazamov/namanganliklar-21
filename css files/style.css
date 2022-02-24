@@ -95,7 +95,7 @@ footer{
     width: 275px;
     background-image: url('../images/search.svg');
     background-repeat: no-repeat;
-    background-position: 15px 16px;
+    background-position: 15px 15px;
     background-size: 20px;
 
 }
@@ -157,6 +157,24 @@ margin-right: 34.44px;
 }
 /* /// NAVIGATION STYLE SECTION*/
 
+
+/*ASIDE SECTION*/
+
+.aside-header_aside {
+margin-bottom: 50px;
+}
+.aside-header_aside-link{
+display: flex;
+text-decoration:none;
+}
+.aside-header_aside-img {
+    width: 100%;
+    max-width: 1200px;
+    height:128px;
+    border-radius:8px;
+}
+
+/*// ASIDE SECTION*/
 
 
 
