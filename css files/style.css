@@ -125,7 +125,7 @@ footer{
 .site-header-nav {
 border-bottom:2px solid #d1d1d1;
 padding-bottom:15px;
-padding-top: 15px;
+margin-bottom: 50px;
 }
 .site-header__nav-list {
     display: flex;
@@ -162,6 +162,7 @@ margin-right: 34.44px;
 
 .aside-header_aside {
 margin-bottom: 50px;
+
 }
 .aside-header_aside-link{
 display: flex;
@@ -175,6 +176,29 @@ text-decoration:none;
 }
 
 /*// ASIDE SECTION*/
+
+
+/*article*/
+
+.article-card {
+}
+.article-card__title {
+}
+.artice-card__title-link {
+}
+.article-card_title-link-description {
+}
+.article-card-img {
+}
+.article-card-bottom {
+}
+.artice-card__bottom-icon {
+}
+.article-card-icon-description {
+}
+.data-time {
+}
+
 
 
 
