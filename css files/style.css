@@ -40,13 +40,7 @@ height: auto;
 .primaryBtn:active{
     opacity: 0.6;
 }
-.main {
-flex-grow: 1;
-}
 
-footer{
-    background-color:aqua;
-}
 /*MAIN SECTION*/
 .site-header-top {
     padding-top:30px;
@@ -177,26 +171,65 @@ text-decoration:none;
 
 /*// ASIDE SECTION*/
 
-
+.main {
+    flex-grow: 1;
+    }
+    
+    
 /*article*/
-
+.article{
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
 .article-card {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    width:393px;
+    border-radius:15px;
+    padding:20px 17px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 .article-card__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10px;
 }
 .artice-card__title-link {
+text-decoration: none;
+    color: #000;  
 }
 .article-card_title-link-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #4a4b4c;
 }
 .article-card-img {
+margin-top: auto;
+object-fit:cover;
+margin-bottom: 15px;
+border-radius:10px;
 }
 .article-card-bottom {
+display: flex;
+align-items:center;
 }
 .artice-card__bottom-icon {
+margin-right: 10px;
+border-radius:5px;
+object-fit: cover;
 }
 .article-card-icon-description {
+font-size: 12px;
+line-height: 14.22px;
 }
 .data-time {
+
 }
 
 
@@ -206,7 +239,9 @@ text-decoration:none;
 
 
 
-
+footer{
+    background-color:aqua;
+}
 
 
 
