@@ -290,16 +290,112 @@ color:#000;
 /* // aside section*/
 
 
+/*WORDW NEWS SECTION STYES*/
+.world-news-section {
+    padding-top:49px ;
+    display: flex;
+    align-items:flex-start;
+    position: relative;
 
-
-
-
-
-
-
-footer{
-    background-color:aqua;
 }
+.world-news-section__title {
+    position: absolute;
+    top:0;
+    left:0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 2px;
+    color:#000;
+
+}
+.wordld-news-section__cards-section {
+    max-width:797px;
+    width:100%;
+    list-style: none;
+}
+.world-news__card-section__items {
+    padding:20px 20px 20px 17px;
+    border-radius:15px;
+    background-color: #f6f6f6;
+    display: flex;
+    margin-bottom: 10px;
+}
+.worlds-news-section_card-section__img{
+    display: flex;
+    width: 210px;
+    height: 165px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+.worlds-news-cards-title{
+    font-weight:500;
+    font-size: 20px;
+    line-height: 26px;
+}
+.worlds-news-cards-title a {
+text-decoration:none;
+color:#000;
+
+}
+.worlds-news-cards-text {
+padding:10px;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color:#4a4b4c;
+margin-bottom: 17px;
+}
+.world-news__card-section__items:last-child{
+    margin-bottom: 17px;
+    }
+.world-news__btn{
+    width:100%;
+    padding:17px;
+    display:block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius:10px;
+    margin-top: 17px;
+}
+
+
+/*FOOTER SECTION STYES*/
+.footer {
+}
+.footer-site {
+}
+.footer-site__container {
+}
+.footer-site__logo {
+}
+.footer-site__logo-img {
+}
+.footer-site__lists {
+}
+.footer-site__logo-pasidagi_about {
+}
+.footer-site__list-nav {
+}
+.footer_site__nav-items {
+}
+.footer-site-nav-link {
+}
+.footer-site_hr {
+}
+.footer-site__socia- {
+}
+.fter-site__title {
+}
+.site-footer__social-icon-lists {
+}
+.site-footer-social_list-item {
+}
+.site-footer-social_list-item-li {
+}
+.footer-site-icon {
+}
+/*// FOOTER SECTION STYES*/
 
 
 
