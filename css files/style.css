@@ -361,39 +361,94 @@ margin-bottom: 17px;
 
 
 /*FOOTER SECTION STYES*/
-.footer {
+.footer{
+margin-top: 100px;
 }
 .footer-site {
+    padding:40px 0;
+    background-color: #7297ef;
 }
 .footer-site__container {
+    width:100%;
+    max-width:1040px;
+    padding:0 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footer-site__logo {
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 15px;
 }
 .footer-site__logo-img {
+    display: flex;
+    width: 264px;
+    height: 28px;
+    background-color: #fff;
 }
 .footer-site__lists {
+    display: flex;
+    align-items:flex-start;
 }
 .footer-site__logo-pasidagi_about {
+    width: 230px;
+    font-weight: 400px;
+    font-size: 12px;
+    line-height: 19px;
+    color:#fff;
+    margin-right: 203px;
 }
-.footer-site__list-nav {
+.footer-site__list-nav{
+    list-style:none;
+    flex-grow:1;
 }
 .footer_site__nav-items {
+    margin-bottom: 20px;
 }
 .footer-site-nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color:#fff;
+    text-decoration: none;
+}
+.footer-site-nav-link:hover{
+    text-decoration: underline;
+    opacity:0.8;
 }
 .footer-site_hr {
+    height:10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border:none;
+    color: #fff;
 }
 .footer-site__socia- {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
 }
 .fter-site__title {
+    font-weight: 500;font-size: 18px;
+    line-height: 23px;
+    color:#fff;
 }
 .site-footer__social-icon-lists {
+    list-style: none;
+    display: flex;
+    align-items:center;
 }
-.site-footer-social_list-item {
+.site-footer-social_list-item:not(:last-child){
+    margin-right: 25px;
 }
 .site-footer-social_list-item-li {
+    text-decoration:none;
+    display: flex;
 }
 .footer-site-icon {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
 }
 /*// FOOTER SECTION STYES*/
 
