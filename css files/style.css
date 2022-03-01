@@ -259,6 +259,9 @@ object-fit: cover;
 font-size: 12px;
 line-height: 14.22px;
 }
+.article-card-bottom_spam{
+    display: flex;
+}
 
 
 /*aside section*/
@@ -296,7 +299,7 @@ color:#000;
     display: flex;
     align-items:flex-start;
     position: relative;
-
+    
 }
 .world-news-section__title {
     position: absolute;
@@ -319,6 +322,7 @@ color:#000;
     background-color: #f6f6f6;
     display: flex;
     margin-bottom: 10px;
+    height: 205px;
 }
 .worlds-news-section_card-section__img{
     display: flex;
@@ -359,7 +363,51 @@ margin-bottom: 17px;
     margin-top: 17px;
 }
 
+/*aside section left*/
+.rigth-full-container{
+    margin-left: 10px;
+}
+.aside-section-left-part {
+    padding:20px 17px 25px;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.world-news-section-aside__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 5px;
+}
+.main-left-description_section:not(:last-child){
+    padding:20px 0;
+    border-bottom:1px solid #d2d2d2;
+}
+.main-left-description_section:last-child{
+padding-top: 20px;
+}
+.world-news-aside-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color:#000;
+    margin-bottom: 8px;
+}
+.article-card-bottom {
+    font-size: 13px;
+    line-height: 15.41px;
+    color:#5e5f61;
+}
+.article-card-icon-description {
+    display:block;
+    margin-right: 2px;
+}
+.data-time {
+    display:block;
+}
+.aside-sectin-img{
 
+}
 /*FOOTER SECTION STYES*/
 .footer{
 margin-top: 100px;
@@ -441,15 +489,20 @@ margin-top: 100px;
 .site-footer-social_list-item:not(:last-child){
     margin-right: 25px;
 }
-.site-footer-social_list-item-li {
+.site-footer-social_list-item-li{
     text-decoration:none;
     display: flex;
 }
-.footer-site-icon {
-    width: 25px;
-    height: 25px;
-    object-fit: contain;
+.site-footer-social_list-item-li img{
+    color:#fff;
 }
+.footer-site-icon{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    color:#fff;
+}
+
 /*// FOOTER SECTION STYES*/
 
 
